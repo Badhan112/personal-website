@@ -2,3 +2,114 @@ body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+/* Banner Area(section) style*/
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #363958;
+    line-height: 15px;
+}
+.highlight{
+    color: #FF8367;
+}
+p{
+    color:#3E3E3E;
+    text-align: justify;
+}
+.half-width p{
+    margin-bottom: 50px;
+}
+.button{
+    text-decoration: none;
+    padding: 15px 30px;
+    background-image: linear-gradient(130deg,#ff7a5c, #faa693);
+    color: white;
+    border-radius: 7px;
+}
+section{
+    height: 500px;
+}
+
+/* About Area(section) style*/
+h2{
+    font-size: 40px;
+    color: #363958;
+}
+
+.button .download-icon{
+    width: 15px;
+}
+
+/* Project Area(section) style*/
+#project-area{
+    background-color: #ebebeb;
+    padding: 4%;
+    text-align: center;
+    
+}
+.single-project{
+    width: 25%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 2%;
+    padding: 1%;
+    text-align: start;
+    border-radius: 20px;
+}
+.single-project img{
+    width: 100%;
+}
+h3{
+    color: #363958;
+}
+#project-area h2{
+    margin-bottom: 50px;
+}
+
+/* Contact Area(section) style*/
+#contact-area{
+    text-align: center;
+    padding: 50px;
+    height: 350px;
+}
+.chat-area h1, .chat-area a{
+    display: inline-block;
+}
+.chat-area{
+    background-image: url("../images/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60%;
+    width: 50%;
+    margin: auto;
+}
+.chat-area h1{
+    color: white;
+}
+.socal-media-area h3{
+    color: #696871;
+    margin-top: 40px;
+}
+.socal-media-area .email-address{
+    text-decoration: none;
+    color: #363958;
+    font-size: 36px;
+    font-weight: bold;
+}
+.socal-media-link-icons{
+    margin-top: 15px;
+}
+.socal-media-area img{
+    width: 30px;
+    padding-left: 20px;
+}
