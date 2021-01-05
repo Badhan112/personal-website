@@ -3,6 +3,27 @@ body{
     margin: 0;
 }
 
+/* Navigation Bar Area(section) style*/
+#navigation-bar-area{
+    height: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+}
+.navigation-bar{
+    list-style: none;
+    text-align: right;
+}
+
+.navigation-bar a{
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+.navigation-bar li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
 /* Banner Area(section) style*/
 .half-width{
     width: 40%;
@@ -80,7 +101,7 @@ h3{
 #contact-area{
     text-align: center;
     padding: 50px;
-    height: 350px;
+    height: 370px;
 }
 .chat-area h1, .chat-area a{
     display: inline-block;
