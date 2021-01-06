@@ -5,9 +5,11 @@ body{
 
 /* Navigation Bar Area(section) style*/
 #navigation-bar-area{
-    height: 100px;
-    padding-top: 20px;
-    padding-right: 100px;
+    height: 50px;
+    padding: 10px 100px 10px 0;
+    text-align: right;
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 30px;
 }
 .navigation-bar{
     list-style: none;
@@ -17,11 +19,16 @@ body{
 .navigation-bar a{
     text-decoration: none;
     color: #3C3C3C;
+    font-size: 15px;
+    padding: 7px 15px;
+    
+    border-radius: 5px;
+    background-color: white;
 }
 
 .navigation-bar li{
     display: inline-block;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 /* Banner Area(section) style*/
@@ -56,6 +63,7 @@ p{
     background-image: linear-gradient(130deg,#ff7a5c, #faa693);
     color: white;
     border-radius: 7px;
+    box-shadow: 3px 3px 10px rgb(165, 164, 164);
 }
 section{
     height: 500px;
@@ -101,25 +109,30 @@ h3{
 #contact-area{
     text-align: center;
     padding: 50px;
-    height: 370px;
+    height: 500px;
 }
 .chat-area h1, .chat-area a{
     display: inline-block;
+    margin: 10% 0;
+    
 }
 .chat-area{
     background-image: url("../images/Group_33094_1.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 60%;
-    width: 50%;
+    height: 65%;
+    width: 70%;
     margin: auto;
 }
 .chat-area h1{
     color: white;
 }
+.chat-area a{
+    margin-left: 20%;
+}
 .socal-media-area h3{
     color: #696871;
-    margin-top: 40px;
+    
 }
 .socal-media-area .email-address{
     text-decoration: none;
